@@ -1,0 +1,7 @@
+dnspython
+ping3
+rich
+typer
+pytest
+black
+mypy
