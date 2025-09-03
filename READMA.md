@@ -19,12 +19,15 @@ It demonstrates **networking fundamentals** (ping, DNS, TCP connectivity) and go
 
 ### Clone the repo
 git clone git@github.com:larbi01/netprobe.git
+
 cd netprobe
 
 ### Setup environment
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 ### Run diagnostics
@@ -48,10 +51,15 @@ hosts:
 ## 🧪 Tech Stack
 
 Python 3.10+
+
 Typer -> CLI
+
 dnspython -> DNS lookups
+
 ping3 -> ICMP
+
 pytest -> Tests
+
 
 ## 👤 Author
 
