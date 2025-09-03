@@ -42,11 +42,17 @@ pytest -v
 
 hosts:
   - name: Localhost
+  - 
     host: 127.0.0.1
+    
     tcp_ports: [22, 8000]
+    
   - name: Google
+  - 
     host: google.com
+    
     tcp_ports: [80, 443]
+    
 
 ## 🧪 Tech Stack
 
